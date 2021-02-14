@@ -1,0 +1,110 @@
+.bookCard {
+    width: 45%;
+    margin: 10px 0;
+    padding: 10px 15px;
+    box-shadow: 1px 2px 3px 1px #888888;
+    border-left: 5px solid orange;
+    background-color: #fff;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-weight: bold;
+    margin: 0 0
+}
+
+.details {
+    margin: 0 0;
+    padding: 2px 0;
+    font-size: 12px;
+}
+
+.subHeading {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0 20px 20px;
+}
+
+.mainHeading {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 2px #666666;
+  -moz-box-shadow: 0px 0px 2px #666666;
+  box-shadow: 0px 0px 2px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #2887c7;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  margin: 5px 10px 0 0;
+}
+
+.button:hover {
+  background: #009dff;
+  text-decoration: none;
+}
+
+.searchBox {
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 50%;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(245, 245, 245);
+}
+input[type="text" i] {
+    padding: 0 10px;
+}
+.searchIcon {
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 1px 0;
+
+}
+
+.search {
+    margin: 50px 0 20px 20px;
+}
+
+.container {
+    background-color: rgb(245, 245, 245);
+}
+
+.form-popup {
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    background-color: rgb(245, 245, 245);
+    border: 3px solid #000;
+    width: 450px;
+    height:550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
